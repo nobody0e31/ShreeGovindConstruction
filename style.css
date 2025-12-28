@@ -1,0 +1,152 @@
+/* ========================================= 
+SHREE GOVIND - CORPORATE ENTERPRISE THEME 
+(Inspired by Tata Projects) 
+========================================= */ 
+
+/* 1. Brand Variables */ 
+:root { 
+    --brand-blue: #005eb8; /* The Classic "Tata Blue" */ 
+    --brand-dark: #003366; /* Darker Navy for footers */ 
+    --accent-sky: #48a9e6; /* Lighter blue for hovers */ 
+    --text-dark: #212529; /* Sharp Black for text */ 
+    --text-light: #6c757d; /* Muted Grey */ 
+    --bg-light: #f4f5f7; /* Very faint grey background */ 
+} 
+
+/* 2. Global Typography (Clean & Engineered) */ 
+body { 
+    font-family: 'Lato', sans-serif; 
+    color: var(--text-dark); 
+    line-height: 1.7; 
+    background-color: #fff; 
+} 
+
+h1, h2, h3, h4, h5, h6, .navbar-brand { 
+    font-family: 'Montserrat', sans-serif; /* Strong, geometric font */ 
+    color: var(--brand-dark); 
+    font-weight: 800; /* Extra Bold */ 
+    letter-spacing: -0.5px; /* Tight, modern tracking */ 
+} 
+
+/* 3. Navbar (Clean White with Blue Line) */ 
+.navbar { 
+    background: #fff !important; 
+    border-bottom: 4px solid var(--brand-blue); /* The signature blue line */ 
+    padding: 15px 0; 
+} 
+
+.navbar-brand { 
+    color: var(--brand-blue) !important; 
+    font-size: 26px; 
+    text-transform: uppercase; 
+} 
+
+.navbar-nav .nav-link { 
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 600; 
+    font-size: 14px; 
+    color: var(--text-dark) !important; 
+    text-transform: uppercase; 
+    margin: 0 15px; 
+} 
+
+/* Navbar Hover: Simple Blue Text (No Underlines) */ 
+.navbar-nav .nav-link:hover, .navbar-nav .nav-link.active { 
+    color: var(--brand-blue) !important; 
+} 
+
+/* Button Styling (Square & Sharp) */ 
+.btn-warning { 
+    background-color: var(--brand-blue); 
+    color: #fff; 
+    border-radius: 0px; /* Sharp corners like engineering blocks */ 
+    padding: 12px 30px; 
+    font-weight: 600; 
+    letter-spacing: 1px; 
+    text-transform: uppercase; 
+    transition: all 0.3s; 
+} 
+
+.btn-warning:hover { 
+    background-color: var(--brand-dark); 
+    color: #fff; 
+    transform: translateY(-2px); 
+} 
+
+/* 4. Hero Slider - TEXT SHADOW EFFECTS */ 
+/* Removed .bg-dark-overlay box to make image fully visible */
+
+.text-shadow-effect {
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8); /* Black shadow to make text pop */
+}
+
+.carousel-item img { 
+    filter: none; 
+} 
+
+/* 5. Cards (Minimalist Border) */ 
+.service-card, .project-card { 
+    background: #fff; 
+    border: 1px solid #e9ecef; /* Very subtle border */ 
+    border-radius: 0; /* Sharp corners */ 
+    box-shadow: none; /* Flat design initially */ 
+    transition: all 0.3s; 
+} 
+
+.service-card:hover, .project-card:hover { 
+    border-color: var(--brand-blue); /* border turns blue on hover */ 
+    box-shadow: 0 20px 50px rgba(0, 51, 102, 0.1); /* Blue tinted shadow */ 
+    transform: translateY(-5px); 
+} 
+
+/* Icons */ 
+.service-card i { 
+    color: var(--brand-blue); 
+    margin-bottom: 20px; 
+} 
+
+/* 6. Section Headers */ 
+.divider { 
+    height: 3px; 
+    width: 60px; 
+    background: var(--brand-blue); 
+    margin: 15px auto; 
+} 
+
+/* 7. Footer (Deep Navy Blue) */ 
+footer { 
+    background: var(--brand-dark) !important; 
+    color: #fff; 
+    border-top: none !important; 
+} 
+
+footer h5 { 
+    color: #fff; 
+    opacity: 0.9; 
+    font-size: 14px; 
+    letter-spacing: 2px; 
+} 
+
+footer a { 
+    color: rgba(255,255,255,0.6) !important; 
+    font-weight: 300; 
+} 
+
+footer a:hover { 
+    color: #fff !important; 
+    text-decoration: underline; 
+    padding-left: 0; 
+} 
+
+/* 8. Text Adjustments */ 
+.text-warning { 
+    color: var(--brand-blue) !important; 
+} 
+
+.bg-warning { 
+    background-color: var(--brand-blue) !important; 
+} 
+
+.border-warning { 
+    border-color: var(--brand-blue) !important; 
+}
